@@ -7,7 +7,7 @@ def main():
     number = 0
 
     while number < 1 or number >100:
-        number = int(input("\n\nEnter a number for the computer to guess in ten trys: "))
+        number = int(input("\n\nEnter a number for the computer to guess: "))
         if number > 100:
             print ("Number must be lower than or equal to 100!")
         if number < 1:
