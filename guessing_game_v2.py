@@ -26,7 +26,7 @@ def main():
             print("")
             print ("It took the computer ",guess, " guesses to find your number")
             print("")
-            print ("The computer guessed", guess, " amount of times")
+            print ("The computer guessed", guess, " this many times")
             break
             
         elif guess >9:
